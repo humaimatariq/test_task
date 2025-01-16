@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Treats - Menu</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sweet Treats</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse head2" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container mt-5">
+    <h2 class="text-center mb-4 head1">Our Menu</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/chocolate cake.jpg" class="card-img-top" alt="Chocolate Cake">
+          <div class="card-body">
+            <h5 class="card-title item">Chocolate Cake</h5>
+            <p class="card-text">$12.99</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalChocolateCake">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/cheese_cake.jpg" class="card-img-top" alt="Cheese Cake">
+          <div class="card-body">
+            <h5 class="card-title item">Cheese Cake</h5>
+            <p class="card-text">$9.99</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCheeseCake">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/macarons.jpg" class="card-img-top" alt="Macarons">
+          <div class="card-body">
+            <h5 class="card-title item">Macarons</h5>
+            <p class="card-text">$14.99</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMacarons">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/red velvet cake.jpg" class="card-img-top" alt="Red Velvet Cake">
+          <div class="card-body">
+            <h5 class="card-title item">Red Velvet Cake</h5>
+            <p class="card-text">$12.99</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRedVelvetCake">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/donuts.jpg" class="card-img-top" alt="Donuts">
+          <div class="card-body">
+            <h5 class="card-title item">Donuts</h5>
+            <p class="card-text">$7.99</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDonuts">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/choco_cookies.jpg" class="card-img-top" alt="Chocolate Cookies">
+          <div class="card-body">
+            <h5 class="card-title item">Chocolate Cookies</h5>
+            <p class="card-text">$7.99</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCookies">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal for Chocolate Cake -->
+      <div class="modal fade" id="modalChocolateCake" tabindex="-1" aria-labelledby="modalChocolateCakeLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalChocolateCakeLabel">Chocolate Cake</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Our rich and moist chocolate cake is made with the finest cocoa powder and topped with a silky chocolate ganache. Perfect for any chocolate lover!</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal for Cheese Cake -->
+      <div class="modal fade" id="modalCheeseCake" tabindex="-1" aria-labelledby="modalCheeseCakeLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalCheeseCakeLabel">Cheese Cake</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Our creamy and luscious cheesecake is baked to perfection and served with a buttery graham cracker crust. A classic dessert for every occasion!</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal for Macarons -->
+      <div class="modal fade" id="modalMacarons" tabindex="-1" aria-labelledby="modalMacaronsLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalMacaronsLabel">Macarons</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Our macarons are light, crispy, and filled with delicious flavors, making them the perfect treat for any occasion.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal for Red Velvet Cake -->
+      <div class="modal fade" id="modalRedVelvetCake" tabindex="-1" aria-labelledby="modalRedVelvetCakeLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalRedVelvetCakeLabel">Red Velvet Cake</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Our Red Velvet Cake is soft, fluffy, and topped with a rich cream cheese frosting. A true classic dessert!</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Modal for Donuts -->
+            <div class="modal fade" id="modalDonuts" tabindex="-1" aria-labelledby="modalDonutsLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalDonutsLabel">Donuts</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Our donuts are light, fluffy, and glazed to perfection, offering a sweet and delightful snack any time of the day.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Modal for Chocolate Cookies -->
+            <div class="modal fade" id="modalCookies" tabindex="-1" aria-labelledby="modalCookiesLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalCookiesLabel">Chocolate Cookies</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Our Chocolate Cookies are baked fresh daily, featuring rich chocolate chunks and a soft, chewy texture.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+
+  <footer class=" text-white text-center py-3">
+    <p>&copy; 2025 Sweet Treats. All rights reserved.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
